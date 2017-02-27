@@ -13,7 +13,7 @@ CFLAGS+=-mcpu=cortex-m3
 CFLAGS+=-D USE_STDPERIPH_DRIVER
 CFLAGS+=-D STM32F10X_MD
 #stm32-flash
-CFLAGS+=-Wl,-T,stm32f103c8t6_flash_md.ld
+CFLAGS+=-Wl,-T,../stm32f103c8t6_flash_md.ld
 
 #Stm32 libraries
 ST_LIB=../lib/STM32F10x_StdPeriph_Driver
