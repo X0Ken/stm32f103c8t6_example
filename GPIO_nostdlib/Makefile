@@ -8,7 +8,7 @@ STARTUP_OBJ=startup_stm32f10x_md.o
 
 #======================================================================#
 #Flags
-CFLAGS=-Wall -g -mlittle-endian -mthumb -nostdlib
+CFLAGS=-Wall -mlittle-endian -mthumb -nostdlib
 CFLAGS+=-mcpu=cortex-m3
 CFLAGS+=-D USE_STDPERIPH_DRIVER
 CFLAGS+=-D STM32F10X_MD
